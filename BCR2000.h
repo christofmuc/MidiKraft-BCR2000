@@ -111,7 +111,7 @@ namespace midikraft {
 	public:
 		BCR2000Preset(std::string const &name, Synth::PatchData const &data);
 
-		std::string name() const override;
+		std::string name() const; // No longer an override
 
 	private:
 		std::string name_;
